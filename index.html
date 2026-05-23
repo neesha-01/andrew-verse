@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Andrew Verse</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="sparkles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <h1>✨THE ANDREW WEB✨</h1>
+        <div class="nav">
+            <button onclick="showSection('intro')">INTRO</button>
+            <button onclick="showSection('home')">HOME</button>
+            <button onclick="showSection('gallery')">PHOTO GALLERY</button>
+            <button onclick="showSection('videos')">VIDEOS</button>
+        </div>
+        <div id="intro" class="section">
+            <div class="intro-images">
+                <img src="image1.png">
+                <img src="image2.png">
+                <img src="image3.png">           
+            </div>     
+        </div>
+        <div id="home" class="section">
+            <h2>ABOUT ANDREW</h2>
+            <div class="home-grid">
+                <div class="card">
+            <p>Also called Waffle</p>
+            <div class="home-images">
+                <img src="image4.png">
+            </div>
+            </div>
+            <div class="card">
+            <p>Has twink potential</p>
+            <div class="home-images">
+                <img src="image5.png">
+            </div>
+            </div>
+            <div class="card">
+            <p>Has a cutie patotie little sister</p>
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+            </div>
+            <div class="card">
+            <p>He is white(He denies it)</p>
+            <div class="home-images">
+                <img src="image6.png">
+            </div>
+            </div>
+            </div>
+        </div>
+        <div id="gallery" class="section">
+            <h2>PHOTO GALLERY</h2>
+            <div class="gallery-grid">
+                <img src="image1.png">
+                <img src="image2.png">
+                <img src="image3.png">
+                <img src="image4.png">
+                <img src="image5.png">
+                <img src="image6.png">
+                <img src="image7.png">
+                <img src="image8.png">
+                <img src="image9.png">
+                <img src="image10.png">
+                <img src="image11.png">
+                <img src="image12.png">
+                <img src="image13.png">
+                <img src="image14.png">
+                <img src="image15.png">
+                <img src="image16.png">
+                <img src="image17.png">
+                <img src="image18.png">
+                <img src="image19.png">
+            </div>
+        </div> 
+        <div id="videos" class="section">
+            <h2>VIDEOS</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <video controls>
+                        <source src="video1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-card">
+                    <video controls>
+                        <source src="video2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-card">
+                    <video controls>
+                        <source src="video3.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-card">
+                    <video controls>
+                        <source src="video4.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-card">
+                    <video controls>
+                        <source src="video5.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-card">
+                    <video controls>
+                        <source src="video6.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-card">
+                    <video controls>
+                        <source src="video7.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-card">
+                    <video controls>
+                        <source src="video8.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-card">
+                    <video controls>
+                        <source src="video9.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-card">
+                    <video controls>
+                        <source src="video10.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-card">
+                    <video controls>
+                        <source src="video11.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <script>
+            function showSection(sectionId)
+            {let sections=document.querySelectorAll(".section");
+                sections.forEach(section=>{section.style.display="none"});
+                document.getElementById(sectionId).style.display="block";}
+        </script>
+    
+    </body>
+</html>
